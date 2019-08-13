@@ -1,0 +1,337 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>概述 · 大黄鱼平台设计说明</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="刘焰">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="平台总体设计.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="平台总体设计.html">
+            
+                <a href="平台总体设计.html">
+            
+                    
+                    大黄鱼平台总体设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="业务逻辑说明.html">
+            
+                <a href="业务逻辑说明.html">
+            
+                    
+                    大黄鱼平台业务逻辑简述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="数据逻辑.html">
+            
+                <a href="数据逻辑.html">
+            
+                    
+                    数据逻辑设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="功能设计.html">
+            
+                <a href="功能设计.html">
+            
+                    
+                    功能设计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="web_gnsj.html">
+            
+                <a href="web_gnsj.html">
+            
+                    
+                    大黄鱼网页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="yyht_gnsj.html">
+            
+                <a href="yyht_gnsj.html">
+            
+                    
+                    运营后台
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="zhht_gnsj.html">
+            
+                <a href="zhht_gnsj.html">
+            
+                    
+                    租户后台
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="app_gnsj.html">
+            
+                <a href="app_gnsj.html">
+            
+                    
+                    大黄鱼App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="csht_gnsj.html">
+            
+                <a href="csht_gnsj.html">
+            
+                    
+                    厂商后台
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >概述</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6982;&#x8FF0;">&#x6982;&#x8FF0;</h1>
+<p><strong>&#x300A;&#x5927;&#x9EC4;&#x9C7C;&#x300B;</strong> &#x5E73;&#x53F0;&#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;&#x4E92;&#x8054;&#x7F51;&#x7684;&#x591A;&#x6E20;&#x9053;&#x591A;&#x573A;&#x666F;&#x7684;&#x4E00;&#x7AD9;&#x5F0F;&#x8425;&#x9500;&#x7BA1;&#x7406;&#x670D;&#x52A1;&#x5E73;&#x53F0;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x5957;&#x5B8C;&#x6574;&#x3001;&#x4E13;&#x4E1A;&#x3001;&#x5B89;&#x5168;&#x7684;&#x6280;&#x672F;&#x652F;&#x6301;&#x548C;&#x8FD0;&#x8425;&#x652F;&#x6301;&#xFF0C;&#x5E2E;&#x52A9;&#x5E7F;&#x5927;&#x4E2D;&#x5C0F;&#x4F01;&#x4E1A;&#x6784;&#x5EFA;&#x548C;&#x5B8C;&#x5584;&#x4E92;&#x8054;&#x7F51;&#x5316;&#x667A;&#x80FD;&#x8425;&#x9500;&#x548C;&#x7BA1;&#x7406;&#x4E2D;&#x5FC3;&#xFF0C;&#x5B9E;&#x73B0;&#x7CBE;&#x7EC6;&#x5316;&#x8FD0;&#x8425;&#x3002;&#x901A;&#x8FC7;&#x8F7B;&#x91CF;&#x5316;&#x5B9A;&#x5236;&#x548C;&#x7075;&#x6D3B;&#x7684;&#x6A21;&#x5F0F;&#x4FDD;&#x8BC1;&#x4F01;&#x4E1A;&#x80FD;&#x591F;&#x5B9E;&#x73B0;&#x548C;&#x5BA2;&#x6237;&#x771F;&#x6B63;&#x6709;&#x6548;&#x3001;&#x7CBE;&#x51C6;&#x7684;&#x89E6;&#x8FBE;&#x3001;&#x6C9F;&#x901A;&#x5E76;&#x4FDD;&#x6301;&#x9AD8;&#x6548;&#x7684;&#x8FDE;&#x63A5;&#x548C;&#x7BA1;&#x7406;&#xFF0C;&#x5927;&#x5927;&#x63D0;&#x5347;&#x8425;&#x9500;&#x6548;&#x7387;&#xFF0C;&#x5E2E;&#x52A9;&#x4F01;&#x4E1A;&#x5B9E;&#x73B0;&#x4E1A;&#x52A1;&#x7206;&#x70B8;&#x5F0F;&#x589E;&#x957F;&#x3002;</p>
+<p>&#x672C;&#x6587;&#x6863;&#x8BE6;&#x7EC6;&#x9610;&#x8FF0;&#x4E86;&#x300A;&#x5927;&#x9EC4;&#x9C7C;&#x300B;&#x5E73;&#x53F0;&#x7684;&#x6784;&#x6210;&#x3001;&#x529F;&#x80FD;&#x8BBE;&#x8BA1;&#xFF0C;&#x4EE5;&#x53CA;&#x5404;&#x6A21;&#x5757;&#x7684;&#x9875;&#x9762;&#x8BBE;&#x8BA1;&#x3001;&#x903B;&#x8F91;&#x8BBE;&#x8BA1;&#x3002;
+&#x672C;&#x6587;&#x6863;&#x53EF;&#x4F5C;&#x4E3A;&#x9879;&#x76EE;&#x7BA1;&#x7406;&#x3001;&#x5F00;&#x53D1;&#x3001;&#x6D4B;&#x8BD5;&#x4EBA;&#x5458;&#x8FDB;&#x884C;&#x9879;&#x76EE;&#x5B9E;&#x65BD;&#x3001;&#x6D4B;&#x8BD5;&#x3001;&#x9A8C;&#x6536;&#x7684;&#x4F9D;&#x636E;&#x3002;
+&#x672C;&#x6587;&#x6863;&#x5C06;&#x6309;&#x7167;&#x5E73;&#x53F0;&#x9879;&#x76EE;&#x4E0D;&#x540C;&#x9636;&#x6BB5;&#x9700;&#x6C42;&#x7684;&#x589E;&#x5220;&#x4FEE;&#x6539;&#x4F5C;&#x51FA;&#x7248;&#x672C;&#x8FED;&#x4EE3;&#x3002;&#x76F8;&#x5173;&#x4EBA;&#x5458;&#x5E94;&#x4EE5;&#x6700;&#x65B0;&#x7248;&#x672C;&#x7684;&#x63CF;&#x8FF0;&#x4E3A;&#x51C6;&#x3002;</p>
+<p>&#x9605;&#x8BFB;&#x5BF9;&#x8C61;&#xFF1A;&#x300A;&#x5927;&#x9EC4;&#x9C7C;&#x300B;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x7ECF;&#x7406;&#x3001;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x3001;&#x6D4B;&#x8BD5;&#x4EBA;&#x5458;&#x3001;&#x8FD0;&#x8425;&#x4EBA;&#x5458;</p>
+<p><strong>&#x7248;&#x672C;</strong>  </p>
+<table>
+<thead>
+<tr>
+<th>&#x7248;&#x672C;</th>
+<th>&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;</th>
+<th>&#x4FEE;&#x8BA2;&#x4EBA;</th>
+<th>&#x4FEE;&#x8BA2;&#x7C7B;&#x578B;</th>
+<th>&#x4FEE;&#x8BA2;&#x7AE0;&#x8282;</th>
+<th>&#x4FEE;&#x8BA2;&#x5185;&#x5BB9;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0.1</td>
+<td>2019-8-8</td>
+<td>&#x5218;&#x7130;</td>
+<td>&#x7F16;&#x5199;</td>
+<td>&#x5168;&#x6587;</td>
+<td>&#x5F00;&#x59CB;&#x7F16;&#x5199;&#x8BBE;&#x8BA1;&#x8BF4;&#x660E;&#x4E66;</td>
+</tr>
+</tbody>
+</table>
+
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="平台总体设计.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 大黄鱼平台总体设计">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"概述","level":"1.1","depth":1,"next":{"title":"大黄鱼平台总体设计","level":"1.2","depth":1,"path":"平台总体设计.md","ref":"平台总体设计.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-search","popup"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"popup":{},"highlight":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"刘焰","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"大黄鱼平台设计说明","language":"zh-hans","output.name":"site","gitbook":"3.2.3","description":"详细说明大黄鱼平台系统设计、功能设计","theme-default":{"showLevel":true}},"file":{"path":"README.md","mtime":"2019-08-09T04:05:45.357Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-13T02:02:12.806Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
