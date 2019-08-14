@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>商户管理 · 大黄鱼平台设计说明</title>
+        <title>租户后台页面框架 · 大黄鱼平台设计说明</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -53,10 +53,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="zh数据管理.html" />
+    <link rel="next" href="zh登录.html" />
     
     
-    <link rel="prev" href="zh销售员管理.html" />
+    <link rel="prev" href="../zhht_gnsj.html" />
     
 
     </head>
@@ -187,7 +187,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.3.1" data-path="框架说明.html">
+        <li class="chapter active" data-level="1.5.3.1" data-path="框架说明.html">
             
                 <a href="框架说明.html">
             
@@ -304,7 +304,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.3.10" data-path="zh商户管理.html">
+        <li class="chapter " data-level="1.5.3.10" data-path="zh商户管理.html">
             
                 <a href="zh商户管理.html">
             
@@ -422,7 +422,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >商户管理</a>
+        <a href=".." >租户后台页面框架</a>
     </h1>
 </div>
 
@@ -434,7 +434,27 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                
+                                <blockquote>
+<h3 id="&#x79DF;&#x6237;&#x540E;&#x53F0;&#x9875;&#x9762;&#x6846;&#x67B6;&#x8BF4;&#x660E;">&#x79DF;&#x6237;&#x540E;&#x53F0;&#x9875;&#x9762;&#x6846;&#x67B6;&#x8BF4;&#x660E;</h3>
+</blockquote>
+<p>&#x79DF;&#x6237;&#x540E;&#x53F0;&#x524D;&#x7AEF;&#x57FA;&#x4E8E;H5&#x7F51;&#x9875;&#x5F00;&#x53D1;&#x3002;&#x9664;&#x767B;&#x5F55;&#x9875;&#x9762;&#x5916;&#xFF0C;&#x6240;&#x6709;&#x9875;&#x9762;&#x91C7;&#x7528;&#x7EDF;&#x4E00;&#x7684;&#x6846;&#x67B6;&#x5E03;&#x5C40;&#x3002;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;
+<img src="../img/zhht&#x6846;&#x67B6;.png" alt="&#x79DF;&#x6237;&#x540E;&#x53F0;&#x9875;&#x9762;&#x6846;&#x67B6;"><div style="font-size:8pt;color:#a0a0a0;text-align:center">(&#x70B9;&#x51FB;&#x56FE;&#x50CF;&#x67E5;&#x770B;&#x5927;&#x56FE;)</div>   </p>
+<ul>
+<li>&#x9875;&#x9762;&#x9876;&#x7AEF;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x83DC;&#x5355;&#x6309;&#x94AE;&#x3001;&#x5927;&#x9EC4;&#x9C7C;&#x5E73;&#x53F0;Logo&#x3001;&#x5E73;&#x53F0;&#x540D;&#x79F0;&#x3001;&#x6D88;&#x606F;&#x6807;&#x7B7E;&#x3001;&#x8D2D;&#x7269;&#x8F66;&#x6807;&#x7B7E;&#x3001;&#x5E2E;&#x52A9;&#x6807;&#x7B7E;&#x548C;&#x7528;&#x6237;&#x5934;&#x50CF;&#x6309;&#x94AE;&#xFF1B;</li>
+<li>&#x5BF9;&#x5E94;&#x5404;&#x5B50;&#x529F;&#x80FD;&#x9875;&#x9762;&#xFF0C;&#x9875;&#x9762;&#x6846;&#x67B6;&#x5DE6;&#x4FA7;&#x663E;&#x793A;&#x5B50;&#x529F;&#x80FD;&#x6A21;&#x5757;&#x83DC;&#x5355;&#x3002;&#x83DC;&#x5355;&#x9876;&#x90E8;&#x4E3A;&#x529F;&#x80FD;&#x6A21;&#x5757;&#x540D;&#x79F0;&#xFF0C;&#x65E0;&#x7528;&#x6237;&#x4EA4;&#x4E92;&#x3002;&#x5176;&#x4E0B;&#x65B9;&#x4E3A;&#x83DC;&#x5355;&#x6761;&#x76EE;&#x3002;&#x83DC;&#x5355;&#x6700;&#x591A;&#x5206;&#x4E3A;&#x4E24;&#x7EA7;&#xFF0C;&#x5177;&#x6709;&#x5B50;&#x83DC;&#x5355;&#x7684;&#x83DC;&#x5355;&#x9879;&#x53EF;&#x6536;&#x7F29;&#x548C;&#x5C55;&#x5F00;&#xFF1B;</li>
+<li>&#x9875;&#x9762;&#x4E3B;&#x4F53;&#x4E3A;&#x529F;&#x80FD;&#x9875;&#x9762;&#x4EA4;&#x4E92;&#x533A;&#x57DF;&#x3002;&#x5176;&#x9876;&#x90E8;&#x987B;&#x663E;&#x793A;&#x201C;&#x9762;&#x5305;&#x5C51;&#x201D;&#x6807;&#x7B7E;&#x4FBF;&#x4E8E;&#x7528;&#x6237;&#x5FEB;&#x901F;&#x5B9A;&#x4F4D;&#x9875;&#x9762;&#x3002;&#x8BBE;&#x8BA1;&#x8981;&#x6C42;&#x6240;&#x6709;&#x529F;&#x80FD;&#x9875;&#x9762;&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x6570;&#x636E;&#x8868;&#x683C;&#x90FD;&#x987B;&#x63D0;&#x4F9B;&#x5237;&#x65B0;&#x3001;&#x8BBE;&#x5B9A;&#x5206;&#x9875;&#x8BB0;&#x5F55;&#x6570;&#x548C;&#x5206;&#x9875;&#x8DF3;&#x8F6C;&#x529F;&#x80FD;&#xFF1B;&#x6240;&#x6709;&#x5177;&#x6709;&#x67E5;&#x8BE2;&#x3001;&#x7EDF;&#x8BA1;&#x7684;&#x6570;&#x636E;&#x8868;&#x683C;&#x90FD;&#x987B;&#x63D0;&#x4F9B;&#x6570;&#x636E;&#x5BFC;&#x51FA;&#x529F;&#x80FD;&#xFF08;&#x5BFC;&#x51FA;&#x64CD;&#x4F5C;&#x53D7;&#x7528;&#x6237;&#x6743;&#x9650;&#x9650;&#x5236;&#xFF09;&#xFF1B;</li>
+<li><p>&#x9876;&#x90E8;&#x83DC;&#x5355;&#x6309;&#x94AE;&#x70B9;&#x51FB;&#x540E;&#x663E;&#x793A;&#x5F53;&#x524D;&#x7528;&#x6237;&#x53EF;&#x64CD;&#x4F5C;&#x7684;&#x6240;&#x6709;&#x79DF;&#x6237;&#x540E;&#x53F0;&#x5B50;&#x529F;&#x80FD;&#x5217;&#x8868;&#x83DC;&#x5355;&#xFF0C;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#x3002;&#x6B64;&#x83DC;&#x5355;&#x7684;&#x6240;&#x6709;&#x83DC;&#x5355;&#x9879;&#x53EA;&#x6709;&#x4E00;&#x7EA7;&#xFF0C;&#x70B9;&#x51FB;&#x540E;&#x8F6C;&#x5165;&#x5BF9;&#x5E94;&#x5B50;&#x529F;&#x80FD;&#x4E3B;&#x9875;&#x9762;&#x3002;   </p>
+<div style="width:50%;margin:auto">
+<img alt="&#x5DE6;&#x4FA7;&#x83DC;&#x5355;" src="../img/zhht&#x4FA7;&#x8FB9;&#x680F;.png"> 
+</div>  
+</li>
+<li><p>&#x201C;&#x6D88;&#x606F;&#x201D;&#x6807;&#x7B7E;&#x70B9;&#x51FB;&#x540E;&#x8F6C;&#x5165;&#x5F53;&#x524D;&#x7528;&#x6237;&#x7684;&#x6D88;&#x606F;&#x7BA1;&#x7406;&#x5B50;&#x529F;&#x80FD;&#x9875;&#x9762;&#x3002;&#x663E;&#x793A;&#x5176;&#x63A5;&#x6536;&#x5230;&#x7684;&#x5404;&#x7C7B;&#x6D88;&#x606F;&#xFF0C;&#x63D0;&#x4F9B;&#x6D88;&#x606F;&#x53D1;&#x9001;&#xFF08;&#x82E5;&#x5177;&#x6709;&#x6743;&#x9650;&#xFF09;&#x529F;&#x80FD;&#xFF1B;</p>
+</li>
+<li>&#x201C;&#x8D2D;&#x7269;&#x8F66;&#x201D;&#x6807;&#x7B7E;&#x70B9;&#x51FB;&#x540E;&#x8F6C;&#x5165;&#x6DFB;&#x52A0;&#x4EA7;&#x54C1;&#x529F;&#x80FD;&#x9875;&#x9762;&#x3002;&#x5176;&#x4E2D;&#x663E;&#x793A;&#x5E73;&#x53F0;&#x4EA7;&#x54C1;&#x5217;&#x8868;&#xFF0C;&#x6DFB;&#x52A0;&#x4EA7;&#x54C1;&#x64CD;&#x4F5C;&#x4EE3;&#x8868;&#x79DF;&#x6237;&#x4EE3;&#x7406;&#x9500;&#x552E;&#x8BE5;&#x4EA7;&#x54C1;&#x3002;&#xFF08;&#x6B64;&#x529F;&#x80FD;&#x4E3B;&#x8981;&#x9762;&#x5411;&#x666E;&#x901A;&#x96F6;&#x552E;&#x5546;&#x54C1;&#x7C7B;&#x522B;&#xFF0C;&#x5F53;&#x524D;&#x7248;&#x672C;&#x6682;&#x4E0D;&#x5F00;&#x53D1;&#xFF09;&#xFF1B;</li>
+<li>&#x201C;&#x5E2E;&#x52A9;&#x201D;&#x6807;&#x7B7E;&#x70B9;&#x51FB;&#x540E;&#x8F6C;&#x5165;&#x5E73;&#x53F0;&#x8BF4;&#x660E;&#x6587;&#x6863;&#x4E3B;&#x9875;&#x9762;&#x3002;&#x5E73;&#x53F0;&#x6587;&#x6863;&#x9700;&#x5E73;&#x53F0;&#x7814;&#x53D1;&#x540E;&#x671F;&#x7F16;&#x64B0;&#xFF0C;&#x5F53;&#x524D;&#x7248;&#x672C;&#x6682;&#x4E0D;&#x5F00;&#x53D1;&#x3002;</li>
+<li>&#x7528;&#x6237;&#x5934;&#x50CF;&#x6309;&#x94AE;&#x5728;&#x70B9;&#x51FB;&#x6216;&#x9F20;&#x6807;&#x60AC;&#x505C;&#x65F6;&#x663E;&#x793A;&#x8D26;&#x53F7;&#x57FA;&#x672C;&#x4FE1;&#x606F;&#x83DC;&#x5355;&#xFF0C;&#x83DC;&#x5355;&#x63D0;&#x4F9B;&#x8D26;&#x53F7;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#x9875;&#x5165;&#x53E3;&#x3002;</li>
+</ul>
+
 <script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
                                 
                                 </section>
@@ -446,12 +466,12 @@
 
             
                 
-                <a href="zh销售员管理.html" class="navigation navigation-prev " aria-label="Previous page: 销售员管理">
+                <a href="../zhht_gnsj.html" class="navigation navigation-prev " aria-label="Previous page: 租户后台">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="zh数据管理.html" class="navigation navigation-next " aria-label="Next page: 数据报表">
+                <a href="zh登录.html" class="navigation navigation-next " aria-label="Next page: 租户注册和登录">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -462,7 +482,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"商户管理","level":"1.5.3.10","depth":3,"next":{"title":"数据报表","level":"1.5.3.11","depth":3,"path":"zhht/zh数据管理.md","ref":"zhht/zh数据管理.md","articles":[]},"previous":{"title":"销售员管理","level":"1.5.3.9","depth":3,"path":"zhht/zh销售员管理.md","ref":"zhht/zh销售员管理.md","articles":[]},"dir":"neutral"},"config":{"plugins":["-sharing","-search","popup"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"popup":{},"highlight":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"刘焰","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"大黄鱼平台设计说明","language":"zh-hans","output.name":"site","gitbook":"3.2.3","description":"详细说明大黄鱼平台系统设计、功能设计","theme-default":{"showLevel":true}},"file":{"path":"zhht/zh商户管理.md","mtime":"2019-08-13T02:25:38.990Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-14T10:03:43.605Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"租户后台页面框架","level":"1.5.3.1","depth":3,"next":{"title":"租户注册和登录","level":"1.5.3.2","depth":3,"path":"zhht/zh登录.md","ref":"zhht/zh登录.md","articles":[]},"previous":{"title":"租户后台","level":"1.5.3","depth":2,"path":"zhht_gnsj.md","ref":"zhht_gnsj.md","articles":[{"title":"租户后台页面框架","level":"1.5.3.1","depth":3,"path":"zhht/框架说明.md","ref":"zhht/框架说明.md","articles":[]},{"title":"租户注册和登录","level":"1.5.3.2","depth":3,"path":"zhht/zh登录.md","ref":"zhht/zh登录.md","articles":[]},{"title":"租户申请","level":"1.5.3.3","depth":3,"path":"zhht/入驻申请.md","ref":"zhht/入驻申请.md","articles":[]},{"title":"租户首页","level":"1.5.3.4","depth":3,"path":"zhht/zh首页.md","ref":"zhht/zh首页.md","articles":[]},{"title":"账号管理","level":"1.5.3.5","depth":3,"path":"zhht/zh账号管理.md","ref":"zhht/zh账号管理.md","articles":[]},{"title":"产品管理","level":"1.5.3.6","depth":3,"path":"zhht/zh产品管理.md","ref":"zhht/zh产品管理.md","articles":[]},{"title":"功能管理","level":"1.5.3.7","depth":3,"path":"zhht/zh功能管理.md","ref":"zhht/zh功能管理.md","articles":[]},{"title":"活动管理","level":"1.5.3.8","depth":3,"path":"zhht/zh活动管理.md","ref":"zhht/zh活动管理.md","articles":[]},{"title":"销售员管理","level":"1.5.3.9","depth":3,"path":"zhht/zh销售员管理.md","ref":"zhht/zh销售员管理.md","articles":[]},{"title":"商户管理","level":"1.5.3.10","depth":3,"path":"zhht/zh商户管理.md","ref":"zhht/zh商户管理.md","articles":[]},{"title":"数据报表","level":"1.5.3.11","depth":3,"path":"zhht/zh数据管理.md","ref":"zhht/zh数据管理.md","articles":[]},{"title":"消息管理","level":"1.5.3.12","depth":3,"path":"zhht/zh消息管理.md","ref":"zhht/zh消息管理.md","articles":[]},{"title":"协议管理","level":"1.5.3.13","depth":3,"path":"zhht/zh协议管理.md","ref":"zhht/zh协议管理.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","-search","popup"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"popup":{},"highlight":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"刘焰","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"大黄鱼平台设计说明","language":"zh-hans","output.name":"site","gitbook":"3.2.3","description":"详细说明大黄鱼平台系统设计、功能设计","theme-default":{"showLevel":true}},"file":{"path":"zhht/框架说明.md","mtime":"2019-08-14T10:02:29.575Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-14T10:03:43.605Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
